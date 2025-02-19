@@ -28,5 +28,5 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'views', 'home.html
 app.get('/services', (req, res) => res.sendFile(path.join(__dirname, 'views', 'services.html')));
 app.get('/contact', (req, res) => res.sendFile(path.join(__dirname, 'views', 'contact.html')));
 
-// Start server
+
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
